@@ -5,20 +5,20 @@
 
 /* CSS Custom Properties */
 :root {
-  /* Colors - Light Theme (Elegant Architecture) */
-  --primary-color: #1a1a1b;
-  --primary-dark: #000000;
-  --secondary-color: #64748b;
-  --accent-color: #c5a059;
-  /* Muted Gold */
-  --background-color: #fcfcfd;
+  /* Colors - Light Theme (Blue) */
+  --primary-color: #0d47a1;
+  --primary-dark: #01235c;
+  --secondary-color: #1976d2;
+  --accent-color: #2196f3;
+  /* Bright Blue */
+  --background-color: #f0f4f8;
   --surface-color: #ffffff;
-  --text-primary: #121212;
-  --text-secondary: #4a4a4a;
-  --text-muted: #8e8e8e;
-  --border-color: #efefef;
-  --shadow-color: rgba(0, 0, 0, 0.04);
-  --shadow-hover: rgba(0, 0, 0, 0.08);
+  --text-primary: #0d1b2a;
+  --text-secondary: #455a64;
+  --text-muted: #78909c;
+  --border-color: #b3e5fc;
+  --shadow-color: rgba(13, 71, 161, 0.08);
+  --shadow-hover: rgba(13, 71, 161, 0.12);
 
   /* Colors - Semantic */
   --success-color: #2d3436;
@@ -87,20 +87,20 @@
   --z-tooltip: 1070;
 }
 
-/* Dark Theme (Deep Space) */
+/* Dark Theme (Deep Blue) */
 [data-theme="dark"] {
-  --primary-color: #f0f0f0;
+  --primary-color: #e3f2fd;
   --primary-dark: #ffffff;
-  --secondary-color: #94a3b8;
-  --accent-color: #e0c070;
-  --background-color: #050505;
-  --surface-color: #121212;
-  --text-primary: #ededed;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
-  --border-color: #2a2a2a;
-  --shadow-color: rgba(0, 0, 0, 0.5);
-  --shadow-hover: rgba(0, 0, 0, 0.7);
+  --secondary-color: #64b5f6;
+  --accent-color: #90caf9;
+  --background-color: #0d1b2a;
+  --surface-color: #1a237e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #80deea;
+  --text-muted: #4fc3f7;
+  --border-color: #0d47a1;
+  --shadow-color: rgba(33, 150, 243, 0.3);
+  --shadow-hover: rgba(33, 150, 243, 0.5);
 
   /* Code Blocks - Dark */
   --code-bg: #1e1e1e;
